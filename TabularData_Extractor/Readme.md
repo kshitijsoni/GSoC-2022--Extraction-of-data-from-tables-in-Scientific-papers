@@ -17,8 +17,8 @@
    5.12 copy\
    5.13 pytesseract\
    5.14 xlsxwriter\
-   6.
-6.Hope everything sets up poperly if not read the section below it will help. 
+ 
+6. Hope everything sets up poperly if not read the section below it will help. 
 7. Now add the Input Files(PDF, Images, Word Document) in 'INPUT FILES' folder, and run: 
 
   7.1 MAIN for python 2.py file(if you have python 2 installed in your system) \
