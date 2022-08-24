@@ -17,12 +17,12 @@
    5.12 copy\
    5.13 pytesseract\
    5.14 xlsxwriter\
-6.Hope everything sets up poperly if not read the section below it will help.
+6.Hope everything sets up poperly if not read the section below it will help. \
 7. Now add the Input Files(PDF, Images, Word Document) in 'INPUT FILES' folder, and run: \
   7.1 MAIN for python 2.py file(if you have python 2 installed in your system) \
 		or \
   7.2 MAIN for python 3.py file(if you have python 3 installed in your system). \
-   Once code runs itself, you can see the Excel output in 'OUT FILES' folder.\
+   Once code runs itself, you can see the Excel output in 'OUT FILES' folder.
 
 
 
