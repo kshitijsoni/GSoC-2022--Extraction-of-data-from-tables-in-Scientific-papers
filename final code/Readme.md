@@ -51,7 +51,7 @@ retinanet-train --batch-size 1 --steps 50  --epochs 10 --weights logos/resnet50_
 (Adjust batch size and step size accordingly, I used this as figures above this gave GPU OOM error to me)
 
 * Run:
-retinanet-convert-model C:\Users\ralha\OneDrive\Desktop\Table_parsing\keras-retinanet\logos\snapshots\resnet50_csv_10.h5 output.h5 
+retinanet-convert-model (directory path)\resnet50_csv_10.h5 output.h5 
 
 * Run:
 retinanet-evaluate csv retinanet_test.csv retinanet_classes.csv output.h5
