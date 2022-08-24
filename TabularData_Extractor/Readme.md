@@ -38,7 +38,7 @@ If facing problem in using pytesseract then add/replace the following config (Li
 	tessdata_dir_config = '--tessdata-dir r"C:\Program Files (x86)\Tesseract-OCR\tessdata"'
 
 	You need to search the destination of your pip module installation and add these two lines to pytesseract.py
-	My destination for pip installation is "C:\Users\Akash Singh\Anaconda3\Lib\site-packages\pytesseract\pytesseract.py", hope this could help you in finding the  file.
+	My destination for pip installation is "C:\Users\Kshitij Soni\Anaconda3\Lib\site-packages\pytesseract\pytesseract.py", hope this could help you in finding the  file.
 
 
 FOR POPPLER: 
