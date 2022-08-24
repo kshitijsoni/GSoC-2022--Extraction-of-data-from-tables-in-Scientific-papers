@@ -1,8 +1,4 @@
-################################################
 
-Advanced Table Parsing using DL
-
-################################################
 
 1. virtualenv for this proj - venv
 
