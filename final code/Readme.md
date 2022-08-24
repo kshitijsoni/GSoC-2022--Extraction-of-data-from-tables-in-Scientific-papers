@@ -54,7 +54,7 @@ retinanet-train --batch-size 1 --steps 50  --epochs 10 --weights logos/resnet50_
 retinanet-convert-model (directory path)\resnet50_csv_10.h5 output.h5 
 
 * Run:
-retinanet-evaluate csv retinanet_test.csv retinanet_classes.csv output.h5
+retinanet-evaluate.csv retinanet_test.csv retinanet_classes.csv output.h5
 
 * Run:
 python pipeline.py
