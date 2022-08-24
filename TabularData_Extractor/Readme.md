@@ -2,27 +2,27 @@
 2. Python Files in the 'TabularData_Extractor' folder includes: (MAIN.py , Combined.py, DOC_2_PDF.py, PDF_2_JPG.py)
 3. Sub-folders in the 'TabularData_Extractor' folder includes: (INPUT FILES, PROCESSED FILES 1, PROCESSED FILES 2, OUTPUT FILES, poppler-0.68.0)
 4. We have attached Tesseract OCR (tesseract-ocr-setup-4.00.00dev.exe) with our files, install it if you haven't installed Tesseract OCR already.
-5. Install all the supported libraries using pip install, libraries needed to be installed(if already not installed) are:
-   5.1 win32com.client
-   5.2 glob
-   5.3 shutil
-   5.4 os
-   5.5 pdf2image
-   5.6 cv2
-   5.7 numpy
-   5.8 PILLOW
-   5.9 scipy
-   5.10 collections
-   5.11 matplotlib
-   5.12 copy
-   5.13 pytesseract
-   5.14 xlsxwriter
+5. Install all the supported libraries using pip install, libraries needed to be installed(if already not installed) are:/
+   5.1 win32com.client/
+   5.2 glob/
+   5.3 shutil/
+   5.4 os/
+   5.5 pdf2image/
+   5.6 cv2/
+   5.7 numpy/
+   5.8 PILLOW/
+   5.9 scipy/
+   5.10 collections/
+   5.11 matplotlib/
+   5.12 copy/
+   5.13 pytesseract/
+   5.14 xlsxwriter/
 6.Hope everything sets up poperly if not read the section below it will help.
-7. Now add the Input Files(PDF, Images, Word Document) in 'INPUT FILES' folder, and run:
-  7.1 MAIN for python 2.py file(if you have python 2 installed in your system) 
-		or 
-  7.2 MAIN for python 3.py file(if you have python 3 installed in your system). 
-   Once code runs itself, you can see the Excel output in 'OUT FILES' folder. 
+7. Now add the Input Files(PDF, Images, Word Document) in 'INPUT FILES' folder, and run:/
+  7.1 MAIN for python 2.py file(if you have python 2 installed in your system) /
+		or /
+  7.2 MAIN for python 3.py file(if you have python 3 installed in your system). /
+   Once code runs itself, you can see the Excel output in 'OUT FILES' folder./ 
 
 
 
