@@ -18,11 +18,11 @@ Dependencies:
 		"pyrcc5 -o resources.py resources.qrc"
 	*  Run the command: "python labelImg.py" and the labelImg tool will launch.
 
-4. keras==2.3.1 
+4. keras (pip install keras)
 You may run into some runtime errors. 
 Refer: https://github.com/tensorflow/tensorflow/issues/38589
 
-5. tensorflow==2.1.0
+5. tensorflow (pip install tensorflow)
 6. PyPDF2 (pip install PyPDF2)
 7. camelot-py[cv] (pip install camelot-py[cv])
 
