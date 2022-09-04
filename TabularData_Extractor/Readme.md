@@ -26,6 +26,8 @@
   7.2 MAIN for python 3.py file(if you have python 3 installed in your system). \
    Once code runs itself, you can see the Excel output in 'OUT FILES' folder.
 
+8. OR Run Main_for_python_5.py\
+
 
 
 IF YOU HAVEN'T INSTALLED TESSERACT AND POPPLER BEFORE YOU NEED TO MAKE THESE CHANGES TO MAKE THE INSTALLATION FILE WORK.
