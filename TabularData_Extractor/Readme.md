@@ -26,15 +26,14 @@
   7.2 MAIN for python 3.py file(if you have python 3 installed in your system). \
    Once code runs itself, you can see the Excel output in 'OUT FILES' folder.
 
-8. OR Run MAIN_for_python_5.py
-
-
+8. OR run directly by\
+    python MAIN_for_python_5.py
 
 IF YOU HAVEN'T INSTALLED TESSERACT AND POPPLER BEFORE YOU NEED TO MAKE THESE CHANGES TO MAKE THE INSTALLATION FILE WORK.
 
 FOR TESSERACT: 
-If facing problem in using pytesseract then add/replace the following config (Line 28 in the pytesseract.py), if you have tessdata error like: "Error opening data file.."
-       
+If facing problem in using pytesseract then add/replace the following config (Line 28 in the pytesseract.py), if you have tessdata error like: "Error opening data file"
+
         #This should be the address where you have installed Tesseract OCR(default adress will be same as I have written in the next two lines)
 	
         tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"

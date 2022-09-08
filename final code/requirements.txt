@@ -30,7 +30,7 @@ et-xmlfile==1.0.1
 etelemetry==0.1.2
 filelock==3.0.12
 fitz==0.0.1.dev2
-gast==0.2.2
+gast==0.3.3
 google-auth==1.20.1
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
@@ -56,8 +56,8 @@ jupyter-core==4.6.2
 Keras==2.3.0
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
-keras-resnet==0.1.0
-keras-retinanet @ file:///C:/Users/ralha/OneDrive/Desktop/Table_parsing/keras-retinanet
+keras-resnet==0.2.0
+keras-retinanet==1.0.0
 kiwisolver==1.1.0
 lazy-object-proxy==1.4.3
 lxml==4.5.0
@@ -99,7 +99,7 @@ ptyprocess==0.6.0
 py==1.8.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycocotools-windows==2.0.0.2
+#pycocotools-windows==2.0.0.2
 pycparser==2.20
 pydot==1.4.1
 pydotplus==2.0.2
@@ -117,8 +117,8 @@ pytest==5.3.5
 python-dateutil==2.8.1
 python-utils==2.4.0
 pytz==2019.3
-pywin32==228
-pywinpty==0.5.7
+#pywin32==228
+#pywinpty==0.5.7
 pyxnat==1.2.1.0.post3
 PyYAML==5.3.1
 pyzmq==18.1.1
@@ -136,10 +136,10 @@ six==1.14.0
 sortedcontainers==2.2.2
 soupsieve==2.0.1
 stevedore==1.32.0
-tensorboard==2.1.1
+tensorboard==2.2.0
 tensorboard-plugin-wit==1.7.0
-tensorflow==2.1.0
-tensorflow-estimator==2.1.0
+tensorflow==2.2.0
+tensorflow-estimator==2.2.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
