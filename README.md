@@ -24,11 +24,11 @@ The primary strategies involved in developing the pipeline:
 iterations of transfer learning multiple times to extract the needful knowledge effectively from a small amount of data.
 3. Strengthening the learning process by applying image transformation techniques to training images for data augmentation
 
-Model Architecture 
-<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/model%20arch.png" width="550"/>
+# Model Architecture 
+<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/model%20arch.png" width="700"/>
 
-Pipeline
-<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Table%20Structure%20Recognition/Pipeline.PNG" width="550"/>
+# Pipeline
+<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Table%20Structure%20Recognition/Pipeline.PNG" width="700"/>
 
 
 Results
@@ -40,7 +40,7 @@ II. Tabular Data Extraction
 The input image for the model, is first transformed into an RGB image and then, resized to 1024 * 1024 resolution.This modified image is processed using tesseract OCR. Since a single model produces both the output masks for the table and column regions, these two independent outputs have binary target pixel values, depending on whether the pixel region belongs to the table/column region or background respectively. The problem of detecting tables in documents is similar to the problem of detecting objects in real world images. Similar to the generic object detection problem, visual features of the tables can be used to detect tables and columns. The difference is that the tolerance for noise in table/column detection is much smaller than in object detection. Therefore, instead of regressing for the boundaries of tables and columns, I employed a method to predict table and column regions pixel-wise. Recent work on semantic segmentation based on pixel wise prediction, has been very successful. FCN architecture, proposed by Long et al., has demonstrated the accuracy of encoder-decoder network architectures for semantic segmentation.
 
 Architecture
-<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/architecture.png" width="550"/>
+<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/architecture.png" width="1200"/>
 
 After processing the documents using my model, masks for table and column regions are generated. These masks are used to filter out the table and its column regions from the image. Since, all word positions of the document are already known (using Tesseract OCR), only the word patches lying inside table and column regions are filtered out. Now, using these filtered words, a row can be defined as the collection of words from multiple columns, which are at the similar horizontal
 level. However, a row is not necessarily confined to a single line, and depending upon the content of a column or line demarcations, a row can span multiple lines. Therefore, to cover the different possibilities, we formulate three rules for row segmentation:
