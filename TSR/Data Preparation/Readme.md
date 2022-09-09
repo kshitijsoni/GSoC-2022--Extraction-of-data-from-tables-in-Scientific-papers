@@ -1,10 +1,10 @@
 # Dialation
 In the dilation transform, transform the original image to thicken the black pixel regions. convert the original images into binary images before applying the dilation transform.<br>
-![Dialation Algorithm](Dialation.png)
+![Dialation Algorithm](https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/Dialation.png)
 # Smudge
 
 ## Flow Diagram 
-![Smudge Flow Diagram](SmudgeFlowDiagram.png)
+![Smudge Flow Diagram](https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/SmudgeFlowDiagram.png)
 
 ## Run 
 Open Smudge.py and specify
