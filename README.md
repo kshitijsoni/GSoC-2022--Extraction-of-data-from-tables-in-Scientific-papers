@@ -24,6 +24,11 @@ The primary strategies involved in developing the pipeline:
 iterations of transfer learning multiple times to extract the needful knowledge effectively from a small amount of data.
 3. Strengthening the learning process by applying image transformation techniques to training images for data augmentation
 
+##  Image Augmentation
+<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/3imgs.png" width="750"/><br>
+Codes: <a href="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Data%20Preparation/Dilation.py">Code for dilation transform</a> <a href="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Data%20Preparation/Smudge.py">Code for smudge transform</a>
+
+
 # Model Architecture 
 <img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/model%20arch.png" width="700"/>
 
@@ -31,7 +36,8 @@ iterations of transfer learning multiple times to extract the needful knowledge 
 <img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Table%20Structure%20Recognition/Pipeline.PNG" width="700"/>
 
 
-Results
+# Results
+<img src="https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/TSR.png" width="700"/>
 
 Dataset Preparation
 The dataset was manually prepared. The tables and figures were extracted from all the pdfs shared to me. Then it was curated manually. It contains 241 images og the tables from the pdfs in bmp format. THIS DATASET CANNOT SHARED because it has COPYRIGHTED IMAGES and also the PDFS are copyrighted. The dataset has 223 tables with no visible borderlines for rows and columns, 18 tables with visible borderlines for rows and columns and total of 24920 cells.
