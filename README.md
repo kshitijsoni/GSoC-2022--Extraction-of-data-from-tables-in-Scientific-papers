@@ -80,5 +80,5 @@ The primary contributions made in this project are as follows:
 # Acknowledgements
 
 ## Mentors
-Magdalena Zarowiecki\ 
+Magdalena Zarowiecki \ 
 Andres Becerra
