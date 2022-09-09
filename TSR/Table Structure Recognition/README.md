@@ -3,7 +3,7 @@
 ### Code for Bordered and Borderless tables is released. 
 
 ## TSR Pipeline
-![TSR Pipeline](https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/TSR/imgs/pipeline.PNG)
+![TSR Pipeline]([https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/pipeline.png])
 
 ### Things To Do :- 
 If you want run the code directly without understanding how the code works you can simply add all the directory paths into <a href=h mainpy> main.py </a> file and execute it with following command:
