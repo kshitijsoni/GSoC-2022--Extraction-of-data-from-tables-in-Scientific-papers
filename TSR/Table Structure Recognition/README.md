@@ -3,7 +3,7 @@
 ### Code for Bordered and Borderless tables is released. 
 
 ## TSR Pipeline
-![TSR Pipeline](https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/imgs/pipeline.png)
+![TSR Pipeline](https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Table%20Structure%20Recognition/Pipeline.PNG)
 
 ### Things To Do :- 
 If you want run the code directly without understanding how the code works you can simply add all the directory paths into <a href=h mainpy> main.py </a> file and execute it with following command:
@@ -33,8 +33,8 @@ Refer this Documentation for Line Detection : https://docs.opencv.org/3.4/d9/db0
 Line Detection was performed using the Houghlinesp function of opencv and refering to the original documentaion. We have provided <a href=line_detection.py > line detection</a> with all the parameters already set which works better for tables. This script has a line_detection() function which takes image as a parameter and returns (array or horizontal lines, array of vertical lines).
 
 For Eg:
-![border table](FInal_lineDetection.png)
-<!--![border table](https://github.com/DevashishPrasad/CascadeTabNet/blob/master/Table%20Structure%20Recognition/images/table.PNG)-->
+![border table](https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Table%20Structure%20Recognition/images/FInal_lineDetection.png)
+<!--![border table](https://github.com/kshitijsoni/GSoC-2022--Extraction-of-data-from-tables-in-Scientific-papers/blob/main/TSR/Table%20Structure%20Recognition/images/table.PNG)-->
 
 #### Preprocessing  
 ```
