@@ -53,9 +53,9 @@ You may refer this <a href="/Data Preparation/generateVOC2JSON.py">script</a> to
 
 ## Acknowledgements
 
-This project would not have been possible without their support.
-Magdalena Zarowiecki
-Andres Becerra
+This project would not have been possible without their support. <br>
+Magdalena Zarowiecki<br>
+Andres Becerra<br>
 
 1. The **MMdetection** project team for creating the amazing framework to push the state of the art computer vision
 research and which enabled us to experiment and build state of the art models very easily.
